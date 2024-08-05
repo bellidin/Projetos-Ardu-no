@@ -1,12 +1,17 @@
+//c++
+//programa que envia sinal alto para a saída 4, 
+//aguarda 1 segundo e envia sinal baixo para a saída 4
+
 void setup() {
-  // put your setup code here, to run once:
 pinMode (4, OUTPUT);
+//porta configurada como saída
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+//  envia sinal alto
 digitalWrite (4, HIGH);
 delay (1000);
+//envia sinal baixo
 digitalWrite (4, LOW);
 delay (1000);
 }
